@@ -74,3 +74,11 @@ Menuconfiguration of this LoRaWAN Tester, since it is utilizing 3 library differ
 | **lvgl**            |                           |                             |
 |                     | Color Setting             | Swap 2 bytes of RGB565 Color|
 |                     | LCD Controller Model      |   ILI9341                   |
+
+The above configuration is based on the module that use in the tester:
+⋅⋅* LoRa Module
+  ⋅⋅* RA-01H
+..* GNSS
+  ..* GPS01-TD
+..* LVGL
+  ..* ST7735s
