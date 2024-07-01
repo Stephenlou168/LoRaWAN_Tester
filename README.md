@@ -60,3 +60,20 @@ For the configuration of utilizing this firmware. User should make a [Pin Connec
 |                     | Button MSG     | GPIO 33     |
 |                     | Button RST     | GPIO 25     |
 
+## Menu-configuration
+
+Menuconfiguration of this LoRaWAN Tester, since it is utilizing 3 library differently, make user need to configure each parameter to suit the library accordingly.
+| Library          | Parameter | Info     |
+|---------------------|----------------|-------------|
+| LMIC |                |             |
+|                     | LoRa Frequency            | Any Frequnecy that support the country as long it is between 803-920 MHz     |
+|                     | Radio Chip            | SX1276     |
+| **RA-01H**          |                |             |
+|                     | SCK            | GPIO 5      |
+|                     | MOSI           | GPIO 27     |
+|                     | MISO           | GPIO 19     |
+|                     | NSS            | GPIO 18     |
+|                     | DIO0           | GPIO 26     |
+|                     | DIO1           | GPIO 35     |
+| **GPS01-TD**        |                |             |
+|                     | Tx             | GPIO 16     |
