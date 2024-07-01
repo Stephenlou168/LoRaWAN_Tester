@@ -26,10 +26,23 @@ Below is short explanation of remaining files in the project folder.
 
 ```
 ├── CMakeLists.txt
+├── components
+    ├──ttn-esp32
+├── dependencires.lock
 ├── main
 │   ├── CMakeLists.txt
-│   └── main.c
+|   ├── idf_component.yml
+|   ├──Kconfig.projbuild
+|   ├── main.c
+|   ├── nmea_parser.c
+│   └── nmea_parser.h
+├──  managed_components
+|   ├── espressif_cmake_utilities
+|   ├── espressif_esp_lcd_ili9341
+|   └── lvgl_lvgl 
 └── README.md                  This is the file you are currently reading
+└── sdkconfig
+└── sdkconfig.old
 ```
 Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
 They are not used or needed when building with CMake and idf.py.
