@@ -35,5 +35,27 @@ Additionally, the sample project contains Makefile and component.mk files, used 
 They are not used or needed when building with CMake and idf.py.
 
 For the configuration of utilizing this firmware. USer should make a parameter adjustment in the following Menuconfiguration.
-| Components | Components Pin | ESP Pin |
-| ST7735s TFT Display | SCL | GPIO 13 |
+## Pin Connections
+
+| Components          | Components Pin | ESP Pin     |
+|---------------------|----------------|-------------|
+| **ST7735s TFT Display** |                |             |
+|                     | SCL            | GPIO 13     |
+|                     | SDA            | GPIO 15     |
+|                     | RST            | GPIO 4      |
+|                     | DC             | GPIO 2      |
+|                     | CS             | GPIO 14     |
+|                     | BLK            | NC          |
+| **RA-01H**          |                |             |
+|                     | SCK            | GPIO 5      |
+|                     | MOSI           | GPIO 27     |
+|                     | MISO           | GPIO 19     |
+|                     | NSS            | GPIO 18     |
+|                     | DIO0           | GPIO 26     |
+|                     | DIO1           | GPIO 35     |
+| **GPS01-TD**        |                |             |
+|                     | Tx             | GPIO 16     |
+| **Button**          |                |             |
+|                     | Button MSG     | GPIO 33     |
+|                     | Button RST     | GPIO 25     |
+
