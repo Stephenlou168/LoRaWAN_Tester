@@ -34,7 +34,8 @@ Below is short explanation of remaining files in the project folder.
 Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
 They are not used or needed when building with CMake and idf.py.
 
-For the configuration of utilizing this firmware. USer should make a parameter adjustment in the following Menuconfiguration.
+For the configuration of utilizing this firmware. User should make a ## Pin Connections according to the following table.
+
 ## Pin Connections
 
 | Components          | Components Pin | ESP Pin     |
