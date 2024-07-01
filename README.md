@@ -28,7 +28,7 @@ Below is short explanation of remaining files in the project folder.
 ├── CMakeLists.txt
 ├── components
     ├──ttn-esp32
-├── dependencires.lock
+├── dependencies.lock
 ├── main
 │   ├── CMakeLists.txt
 |   ├── idf_component.yml
