@@ -78,7 +78,7 @@ Menuconfiguration of this LoRaWAN Tester, since it is utilizing 3 library differ
 The above configuration is based on the module that use in the tester:
 ⋅⋅* LoRa Module
   ⋅⋅* RA-01H
-..* GNSS
-  ..* GPS01-TD
-..* LVGL
-  ..* ST7735s
+⋅⋅* GNSS
+  ⋅⋅* GPS01-TD
+⋅⋅* LVGL
+  ⋅⋅* ST7735s
